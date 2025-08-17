@@ -1,0 +1,102 @@
+.equipCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  padding: 20px;
+  width: 90%;
+  border-radius: 16px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-width: 1200px;
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.equipInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.imagemEquipamento {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #fff;
+  padding: 8px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+}
+
+.textoEquip {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tituloProduto {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.status {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0;
+  padding: 4px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.status.Ativo {
+  background-color: #e6f9ed;
+  color: #2ec4b6;
+}
+
+.status.Repouso {
+  background-color: #fff4e5;
+  color: #d9822b;
+}
+
+.status.Inativo {
+  background-color: #fdeaea;
+  color: #e63946;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.botoes button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.botoes button:hover {
+  transform: scale(1.05);
+}
+
+.botoes .btnAtivo {
+  background-color: #2ec4b6;
+}
+
+.botoes .btnRepouso {
+  background-color: #d9822b;
+}
+
+.botoes .btnInativo {
+  background-color: #e63946;
+}
