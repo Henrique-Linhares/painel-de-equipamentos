@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Gerenciamento de Equipamentos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de gerenciamento de equipamentos desenvolvido em React, utilizando componentes e manipulação de estado. A aplicação permite visualizar diferentes equipamentos e alterar o seu status (Ativo, Repouso, Inativo) através de botões interativos.
 
-## Available Scripts
+## 🚀 Tecnologias Utilizadas
 
-In the project directory, you can run:
+* **React:** Biblioteca JavaScript para a criação de interfaces de usuário.
+* **CSS:** Estilização dos componentes para um layout moderno e responsivo.
 
-### `npm start`
+## ✨ Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Exibição de cards de equipamento com nome e imagem.
+* Indicador de status (Ativo, Repouso, Inativo) com cores dinâmicas.
+* Botões interativos para alterar o status do equipamento.
+* Design responsivo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Como Rodar o Projeto
 
-### `npm test`
+Para clonar e executar este projeto em sua máquina local, siga os passos abaixo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  **Clone o repositório:**
+    ```bash
+    git clone (https://github.com/Henrique-Linhares/painel-de-equipamentos.git))
+    ```
+2.  **Acesse o diretório do projeto:**
+    ```bash
+    cd painel-de-equipamentos
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+4.  **Inicie a aplicação:**
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+A aplicação será aberta automaticamente no seu navegador padrão em `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 Atividade para a Faculdade
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto foi desenvolvido como parte de uma atividade acadêmica para a disciplina de **[Desenvolvimento Front-End]** no curso de **[Análise e Desenvolvimento de Sistemas]** na **[Faculdade de Tecnologia Senai São Carlos]**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Objetivo:** Praticar conceitos de componentes, `state` e estilização no React
+--
 
-### `npm run eject`
+## 📞 Contato
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Em caso de dúvidas ou sugestões, você pode me encontrar em:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **GitHub:** [(https://github.com/Henrique-Linhares)]
+* **Email:** [hlinhares453@gmail.com]
