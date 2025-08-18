@@ -48,5 +48,5 @@ Este projeto foi desenvolvido como parte de uma atividade acadêmica para a disc
 
 Em caso de dúvidas ou sugestões, você pode me encontrar em:
 
-* **GitHub:** [(https://github.com/Henrique-Linhares)]
-* **Email:** [hlinhares453@gmail.com]
+* **GitHub:** https://github.com/Henrique-Linhares
+* **Email:** hlinhares453@gmail.com
